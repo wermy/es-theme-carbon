@@ -29,8 +29,10 @@ Element color: Search and replace colors. Do not use spaces!
 		</image>
 
 		<helpsystem name="help">
-			<textColor>7d7d7d</textColor>
-			<iconColor>7d7d7d</iconColor>
+            <pos>0.003 0.930</pos>
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+            <fontSize>0.055</fontSize>
 		</helpsystem>
 
 		<image name="CenterFade" extra="true">
@@ -67,13 +69,20 @@ Element color: Search and replace colors. Do not use spaces!
 			<path>./art/carbon_fiber.png</path>
 		</image>
 
+		<helpsystem name="help">
+            <pos>0.003 0.930</pos>
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+            <fontSize>0.055</fontSize>
+		</helpsystem>
+
 		<textlist name="gamelist">
 			<selectorColor>1c1c1c</selectorColor>
 			<selectedColor>8b0000</selectedColor>
 			<primaryColor>969696</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.030</fontSize>
+			<fontSize>0.060</fontSize>
 			<pos>0.025 0.18</pos>
 			<size>0.950 0.73</size>
 			<alignment>center</alignment>
@@ -91,6 +100,13 @@ Element color: Search and replace colors. Do not use spaces!
 			<maxSize>0.453 0.436</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
+
+		<helpsystem name="help">
+            <pos>0.003 0.930</pos>
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+            <fontSize>0.055</fontSize>
+		</helpsystem>
 
 	</view>
 	
@@ -128,11 +144,18 @@ Element color: Search and replace colors. Do not use spaces!
 			<path>./art/carbon_fiber.png</path>
 		</image>
 
+		<helpsystem name="help">
+            <pos>0.003 0.930</pos>
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+            <fontSize>0.055</fontSize>
+		</helpsystem>
+
 		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate">
 			<color>969696</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.023</fontSize>
+			<fontSize>0.046</fontSize>
 		</text>
 
 		<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
@@ -143,7 +166,7 @@ Element color: Search and replace colors. Do not use spaces!
 			<color>969696</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.023</fontSize>
+			<fontSize>0.046</fontSize>
 		</datetime>
 
 		<datetime name="md_lastplayed">
@@ -179,7 +202,7 @@ Element color: Search and replace colors. Do not use spaces!
 			<color>969696</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.023</fontSize>
+			<fontSize>0.06</fontSize>
 			<size>0.467 0.16</size>
 			<pos>0.530 0.746</pos>
 		</text>
@@ -195,7 +218,7 @@ Element color: Search and replace colors. Do not use spaces!
 			<size>0.489 0.754</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.00</horizontalMargin>
-			<fontSize>0.03</fontSize>
+			<fontSize>0.06</fontSize>
 			<scrollSound>./art/scroll.wav</scrollSound>
 		</textlist>
 
